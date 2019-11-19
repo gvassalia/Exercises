@@ -19,7 +19,7 @@ public class Polindrome {
 			return;
 		}
 		
-		text = text.trim();
+		text = text.toLowerCase().trim();
 	}
 	
 	public String getText() {
@@ -32,8 +32,9 @@ public class Polindrome {
 	
 	private boolean check() {
 		if (text == null || text.length() == 0) {
-			
+			return false;
 		}
+		
 		for (int i = 0, j = text.length() - 1; i != j; i++, j--) {
 			if (i > j) {
 				break;
