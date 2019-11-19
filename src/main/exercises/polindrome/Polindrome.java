@@ -1,4 +1,4 @@
-package polindrome;
+package exercises.polindrome;
 
 public class Polindrome {
 	private String text;

@@ -3,7 +3,7 @@ package exercises.water_and_land;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
-import polindrome.Polindrome;
+import exercises.polindrome.Polindrome;
 
 class PolindromeTest {
 
